@@ -1,0 +1,341 @@
+hr{
+    width:98%;
+    height:2px;
+    border:none;
+    background-color:lightgrey;
+}
+input, select{
+    margin-bottom:5px
+}
+td,th{
+    border-width:1px 0px 1px 0px;
+    border-style:solid;
+    border-color:lightgrey;
+}
+th{
+    font-size:14px;
+    margin:5px 0px 5px 0px;
+    padding:5px;
+}
+#results tr:not(:first-child):hover{
+    background-color: #e8e8e8!important;
+}
+#favorites tr:not(:first-child):hover{
+    background-color: #e8e8e8!important;
+}
+table{width:100%;}
+table.reviews{display:table}
+#info-table tr,td{
+    padding:10px;
+}
+.info-table tr:nth-child(odd){
+    background-color:#f2f2f2;
+}
+.nearby td{padding-left:10px}
+.reviews td{text-align:center}
+.reviews img{width:30px}
+.photos td{padding:15px;text-align:center}
+/*button{margin-right:5px;}*/
+a{text-decoration:none;color:#007bff}
+label{
+    padding:2px!important;
+}
+h4{
+    margin:0;
+    text-align: center;
+}
+#searchForm{
+    max-width:700px;
+}
+#search-form-div{
+    border:2px solid lightgrey;
+    background-color:#f8f8f8;
+    border-radius: 5px;
+    padding:10px;
+    margin-top:10px;
+}
+#searchForm{
+    margin:auto;
+}
+#search-button{
+    margin-right:5px;
+}
+#clear-button{
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+#clear-button:hover{
+    background-color: lightgrey;
+}
+#map{height:350px;width:500px}
+#travelmode-container{position:absolute;top:0;left:0;z-index:2}
+.travelmode{background-color:#e6e5e5;padding:5px}
+.travelmode:hover{background-color:lightgrey;cursor:pointer}
+#reviews,#photos{display:none}
+#show-photos,#show-reviews{
+    width: 200px;
+    margin: auto;
+}
+#show-photos,#show-reviews:hover{
+    cursor: pointer;
+}
+span.down, span.up{
+    border: solid #bbbbbb;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+}
+span.up{margin-top:10px;}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.activeAddress{color:grey}
+.records-error{
+    margin-top:40px;
+    display:none
+}
+
+.form-input{
+    width: 80%!important;
+    display:inline-block!important;
+}
+.required{
+    color: red;
+    font-weight: bold;
+}
+#progress-outer{
+    margin:auto;
+    margin-top:60px;
+    max-width:80%;
+}
+#results-favs{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.btn-unselected{
+    background-color:transparent;
+    color: #226cbb;
+}
+.table-button{
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 5px;
+    width: 35px;
+    text-align: center;
+    background-color: white;
+}
+.table-button:hover{
+    background-color: lightgrey!important;
+    cursor: pointer;
+}
+.error-text{
+    color:red;
+    font-size:14px;
+}
+.error-wrapper{
+    width:100%;
+    margin-top:-5px;
+}
+.error-input{
+    border:2px solid red;
+}
+.right-nav{
+    float:right;
+}
+.left-nav{
+    float:left;
+    display:none;
+}
+.nav-bar{
+    overflow:auto;
+    margin-bottom:5px;
+}
+#bottom-area{
+    margin:auto;
+}
+.category-icon{
+    width:40px;
+    padding:4px;
+}
+.navbutton{
+    border:1px solid lightgrey;
+    min-width: 80px;
+}
+.navbutton:hover{
+    background-color:#e8e8e8;
+}
+#table-page-button{
+    margin-top:20px;
+}
+.table-page-button-wrapper{
+    margin:10px 0px 40px 0px;
+    text-align:center;
+}
+.gold-star{
+    color:gold;
+}
+.orange-star{
+    color:orange;
+}
+.wrapper{
+    display:none;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#details-wrapper{
+    margin-bottom: 50px;
+}
+.rownum{
+    font-weight:bold;
+}
+.rating-stars{
+    position: absolute; top: 0; left: 0; white-space: nowrap; overflow:hidden;
+}
+.ratings-wrapper{
+    position:relative;
+    width: 90px; 
+    display: inline-block;
+    vertical-align: 65%;
+    margin-left: 5px;
+}
+
+#results-wrapper.ng-hide-add {
+  opacity:0;
+}
+#results-wrapper.ng-hide-remove {
+  -webkit-animation:0.3s slideLeft;
+  animation:0.3s slideLeft;
+}
+#details-wrapper.ng-hide-add {
+  opacity:0;
+}
+#details-wrapper.ng-hide-remove {
+  -webkit-animation:0.3s slideRight;
+  animation:0.3s slideRight;
+}
+#open-hours-link{
+    color:#007bff;
+    cursor: pointer;
+    display: inline;
+    margin-left:10px;
+}
+
+.tab-content{
+    margin-top:20px;
+}
+
+.card{
+    border:none!important;
+}
+.card-columns{
+    margin-top:20px;
+    column-gap:0.6rem;
+}
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+.modal-dialog{
+    margin-top:15vh;
+}
+.close{
+    position: absolute;
+    right: 3%;
+}
+
+@keyframes slideLeft {
+   0% {
+      opacity: 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      -ms-transform: translate3d(100%, 0, 0); 
+      transform: translate3d(100%, 0, 0);
+   }
+
+   100% {
+      opacity: 1;
+      -webkit-transform: none;
+      -ms-transform: none;
+      transform: none;
+   }
+}
+
+@keyframes slideRight {
+   0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      -ms-transform: translate3d(-100%, 0, 0); 
+      transform: translate3d(-100%, 0, 0);
+   }
+
+   100% {
+      opacity: 1;
+      -webkit-transform: none;
+      -ms-transform: none;
+      transform: none;
+   }
+}
+
+#map-container{
+    width:100%;
+    height:300px;
+}
+#streetview-container{
+    width:100%;
+    height:300px;
+    display:none;
+}
+
+#map-content .col-1,.col-2,.col-3,.col-4{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.streetview-btn{
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    padding: 2px 0px 0px 2px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+.reviews-select{
+    background-color:grey;
+    color:white;
+    margin-left:10px;
+    font-size:12px;
+    height:30px;
+}
